@@ -1,6 +1,6 @@
 <?php
 
-return function($key) {
+return function($key, $options) {
     $settings = cradle('global')->config('settings');
 
     if(!isset($settings[$key])) {
