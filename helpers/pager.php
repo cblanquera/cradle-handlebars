@@ -28,8 +28,7 @@ return function($total, $range, $options) {
 
     //if no pages
     if($pages <= 1) {
-        //return nothing
-        return '';
+        return $options['inverse']();
     }
 
     $buffer = array();
