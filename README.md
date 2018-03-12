@@ -1,4 +1,6 @@
-# cradle-mail
+> Deprecation Notice: This project has been moved to https://github.com/CradlePHP/Cradle
+
+# cradle-handlebars
 Mail Handling for Cradle with Swift Mailer
 
 ## 1. Requirements
